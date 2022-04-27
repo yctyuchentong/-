@@ -1,0 +1,167 @@
+div{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /*background: linear-gradient(200deg,#7AB5DD,#ebcbc5);*/
+
+}
+
+input{
+    background-color: transparent;
+}
+li{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+/* head */
+.head{
+    height: auto;
+    widtd: 100%;
+    text-align: center;
+    background-color: #7AB5DD;
+    padding: .1333rem;
+}
+.head h1{
+    font-family: "宋体";
+}
+
+.weather {
+    position: absolute;
+
+    right: .3rem;
+    top: 3.5rem;
+    line-height: .75rem;
+}
+.weather span {
+    position: relative;
+    color: rgba(255,255,255,.7);
+    font-size: .18rem;
+    padding-right: .5rem;
+}
+
+/* 主体 */
+
+
+.content{
+    margin: 0 auto;
+    position: relative;
+    width: 75%;
+
+}
+
+.content form{
+    margin-top: 20px;
+}
+.content td{
+    padding: 10px;
+}
+.col1{
+    text-align: right;
+}
+
+.content input{
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #bbb
+
+}
+.content input:focus {
+    border-color: #7AB5DD;
+    outline: none;
+}
+
+.content .btn{
+    border-radius: 5px;
+    background-color: #7AB5DD;
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 25px;
+}
+.btn-primary{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /*width: 100px;*/
+}
+
+form{
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    background: rgba(255,255,255,.7);
+    margin-left: 100px;
+    padding: 50px;
+}
+/* 导航 */
+
+.news_type_list
+{
+    margin:50px auto;
+    width:200px;
+    height:auto;
+    background:rgba(255,255,255,.7);
+    box-shadow:0 0 1px #999;
+    border-radius:5px;
+    overflow:hidden;
+    float: left;
+    margin: 0;
+
+}
+
+.news_type_list ul{
+    width:100%;
+    height:auto;
+    padding: 0;
+}
+
+.news_type_list h2
+{
+    padding-left:20px;
+    height:35px;
+    line-height:35px;
+    font-size:25px;
+    font-weight:600;
+    color:#400000;
+}
+
+.news_type_list li
+{
+    list-style-type:none;
+    padding-bottom:5px;
+}
+
+.news_type_list li a
+{
+    color:#280029;
+    padding:5px 15px;
+    font-size:20px;
+    text-decoration:none;
+    margin-left:10px;
+    display:block;
+}
+
+.news_type_list a:hover
+{
+    color:#7AB5DD
+}
+
+.news_type_list .cur a{
+    color:#FFF;}
+.news_type_list .cur{
+    background-color: #7AB5DD;
+}
+
